@@ -13,6 +13,21 @@ export default {
       },
     },
     extend: {
+      backgroundImage: {
+        'clock-gradient': 'var(--clock-gradient)',
+      },
+      boxShadow: {
+        'time-glow': 'var(--time-glow)',
+        'number': 'var(--number-shadow)',
+      },
+      transitionTimingFunction: {
+        'smooth': 'var(--transition-smooth)',
+      },
+      fontSize: {
+        '7xl': '5rem',
+        '8xl': '6rem',
+        '9xl': '8rem',
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
